@@ -32,10 +32,10 @@ input_numbers = input("Enter a series of space-separated integers: ")
 
 # Convert Input:
 strings = input_numbers.split(' ')
-nums = [int(x) for x in strings]
+numbers_list = [int(x) for x in strings]
 
 # Sorting:
-nums.sort()
+numbers_list.sort()
 
 # Print Output
 print("Sorted list:", numbers_list)
